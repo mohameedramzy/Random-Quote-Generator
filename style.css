@@ -1,0 +1,71 @@
+body{
+  background-color: #f4f4f4;
+}
+.container {
+  width: 65%;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+section{
+display: flex;
+align-items: center;
+}
+h1{
+  font-size: 60px;
+  font-family: "PT Serif", serif;
+font-weight: 900;
+color: #433878;
+}
+span{
+  font-size: 15px;
+  font-family: "PT Serif", serif;
+font-weight: 700;
+color: #433878;
+margin-bottom: 30px;
+}
+button{
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  background-color: #E4B1F0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+button:hover{
+  background-color: #7E60BF;
+  box-shadow: 5px 5px 10px #E4B1F0;
+}
+
+.quote{
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+text-align: center;
+}
+
+
+#quote{
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  color: #7E60BF;
+
+}
+#author{
+  font-size: 18px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  color: #7E60BF;
+}
